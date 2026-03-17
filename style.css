@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: rgba(250, 58, 90, 0.505);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: normal;
+    
+
+}
+header{
+    color: white;
+    text-align: center;
+
+
+}
+
+header > h1{
+    text-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.575);
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.285);
+    
+
+
+}
+
+section > div > p> .btcontar{
+ background-color: rgba(255, 192, 203, 0.578);
+ border-radius: 5px;
+}
+
+section > div > p> .btcontar:hover{
+  background-color: rgba(245, 64, 94, 0.525);
+  cursor: pointer;
+}
+
+
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+
+}
+
+footer {
+    font-size: medium;
+    color: white;
+    text-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.676);
+    
+}
